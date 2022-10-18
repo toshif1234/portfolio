@@ -192,7 +192,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: rgb(3, 142, 79);
     font-weight: 500;
 }
 .home .home-content a{
@@ -371,10 +371,10 @@ section .title::after{
     width: 20%;
 }
 .skills-content .right .php::before{
-    width: 10%;
+    width: 80%;
 }
 .skills-content .right .mysql::before{
-    width: 30%;
+    width: 80%;
 }
 .skills-content .right .C::before{
     width: 70%;

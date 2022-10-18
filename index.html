@@ -24,9 +24,45 @@
     <style>
         #cd-card{
             border-radius: 33px;
-background: #e0e0e0;
+background: #b4d479;
 
         }
+     
+
+        .text-2 {
+            font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, rgb(17, 99, 199), #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(213, 28, 192, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  25%{
+    background-position: -100%;
+  }
+  50%{
+    background-position: 100%;
+  }
+  100% {
+    background-position: 500%;
+  }
+  
+}
+
     </style>
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
@@ -46,7 +82,7 @@ background: #e0e0e0;
             </div>
         </div>
     </nav>
-
+    
     <!-- home section start -->
     <!-- <div class="cat">
     <img src="./profilepic.jpg" style="width:100% ;" alt="">
@@ -66,10 +102,12 @@ background: #e0e0e0;
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1 ">Hello, my name is</div>
+                <div class="text-1 ">Hello, My name is</div>
                 <div class="text-2 ">Toshif Patil</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
-                <h3 class="text">Student</h3>
+                <div class="text-3">And I'm a <br>
+                    <span class="typing">Full Stack Web Developer</span></div>
+                
+                
             </div>
         </div>
     </section>
@@ -125,7 +163,7 @@ background: #e0e0e0;
     <!-- skills section start -->
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title">My skills</h2>
+            <div style="width: 400px;"   class="text-2">My skills</div>
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
@@ -157,14 +195,14 @@ background: #e0e0e0;
                     <div class="bars">
                         <div class="info">
                             <span>PHP</span>
-                            <span>10%</span>
+                            <span>80%</span>
                         </div>
                         <div class="line php"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
                             <span>MySQL</span>
-                            <span>30%</span>
+                            <span>80%</span>
                         </div>
                         <div class="line mysql"></div>
                     </div>
