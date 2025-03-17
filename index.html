@@ -40,14 +40,17 @@
 
   <!-- ======= Header ======= -->
   <header id="header">
-    <div class="container " style="margin: 30px;">
+    <div class="container lines" style="margin: 30px;">
+      <div class="line"></div>
+  <div class="line"></div>
+  <div class="line"></div>
       <div class="row">
         
         <div class="col col-md-8 col-lg-8 col-12 mb-4">
-          <h2 class="neon-text"><a href="index.html" style="color: #fff; font-size: 50px;"  >Toshif Husen Patil</a></h2>
+          <h2 class="neon-tex"><a href="index.html" style="color: #fff; font-size: 50px;"  >Toshif Husen Patil</a></h2>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
-      <h2 class="w-100">Greetings! I'm Toshif, and I’m a Business Analyst at <a href="https://stellium.com">Stellium inc</a>, crafting epic solutions.</h2>
+      <h2 class="w-100">Greetings! I'm Toshif, and I’m a <span class="typing-text"></span>,<br> crafting epic solutions.</h2>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -70,7 +73,7 @@
         <a href="https://github.com/toshif1234" class="Github"><i class="bi bi-github"></i></a>
       </div>
         </div>
-        <h2 class="col col-md-4 col-lg-4 col-12">
+        <h2 class="col col-md-4 col-lg-4 col-12 ml-4">
           <img src="./assets/img/me.png" alt="Your Photo" class="profile-pic animate-orbit">
         </h2>
       </div>
@@ -111,7 +114,7 @@
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor of Engineering</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="email:toshifpatil401@gmail.com">toshifpatil401@gmail.com</a></span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Current compuny:</strong> <span>Stellium Inc</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Current company:</strong> <span>Stellium Inc</span></li>
               </ul>
             </div>
           </div>
@@ -460,9 +463,9 @@
             <p> As a Business Analyst at <a href="https://stellium.com">Stellium Inc</a>, I have been instrumental in driving business growth through data-driven insights and strategic planning. My role involves analyzing market trends, identifying opportunities for growth, and developing innovative solutions to enhance operational efficiency. I have also been involved in below projects, collaborating with cross-functional teams to deliver high-impact projects that drive business success.</p>
             <ul>
               <li><b>StockSnap : </b> A lightweight cloud solution for physical inventory. Streamline cycle counts and ensure inventory accuracy across digitized and non-digitized nodes.</li>
-              <li><b>External Forecasting : </b></li>
-              <li><b>SmartSlot : </b></li>
-              <li><b>Fleet Sync : </b></li>
+              <li><b>External Forecasting : </b>The External Forecasting application which has additional efficient algorithms which are not there in SAP IBP and it's built on using BTP</li>
+              <li><b>SmartSlot : </b>A slotting solution for warehouse optimization. It helps in optimizing the warehouse layout and reducing the travel time of warehouse staff.</li>
+              <!-- <li><b>Fleet Sync : </b>An application </li> -->
             </ul>
             </p>
           </div>
@@ -816,8 +819,18 @@
     </div>
   </section><!-- End Contact Section -->
 
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
+  <script>
+    var typed = new Typed(".typing-text", {
+    strings: ["UI5 Developer","frontend developer", "backend developer", "web designer", "android developer", "web developer"],
+    loop: true,
+    typeSpeed: 50,
+    backSpeed: 30,
+    backDelay: 500,
+});
+  </script>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -829,6 +842,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 
 </body>
 
